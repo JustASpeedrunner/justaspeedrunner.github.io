@@ -32,6 +32,21 @@ function Tooltip(props: Props) {
     "Stop, please!",
     "Okay, last one!",
     "That's it, I'm done!",
+    "That's it, I'm done!",
+    "That's it, I'm done!",
+    "That's it, I'm done!",
+    "That's it, I'm done!",
+    "That's it, I'm done!",
+    "That's it, I'm done!",
+    "That's it, I'm done!",
+    "That's it, I'm done!",
+    "That's it, I'm done!",
+    "That's it, I'm done!",
+    "That's it, I'm done!",
+    "That's it, I'm done!",
+    "That's it, I'm done!",
+    "Wow. You're really persisent.",
+    "Good job, have a cookie. 🍪",
   ];
 
   const currentMessage = () => {

@@ -12,9 +12,9 @@ import Tooltip from "./Tooltip/index";
       <div class="flex flex-col h-full">
         <h6 class="text-sm font-light m-0 text-gray-500">welcome</h6>
         <p class="m-0 font-light text-xl">
-          Hi, I'm <b class="font-bold">Gianmarco Cavallo</b>, a software
-          developer with strong focus on the user experience, animations and
-          micro interactions
+          Hi, I'm <b class="font-bold">Thomas Puckett</b>, a software
+          developer and high school student with an interest in Rust and 
+          game development.<br><br><br><br><br>Image by @reelrollsweat on tumblr
         </p>
       </div>
       <div class="flex gap-4">
@@ -22,12 +22,6 @@ import Tooltip from "./Tooltip/index";
           <Button aria-label="github profile">
             <Icon name="ri:github-fill" class="h-6" />
             <span class="sr-only">GitHub Profile</span>
-          </Button>
-        </a>
-        <a href={LINKS.linkedin} aria-label="linkeding profile" target="_blank">
-          <Button aria-label="linkedin profile">
-            <Icon name="ri:linkedin-box-fill" class="h-6" />
-            <span class="sr-only">Linkedin Profile</span>
           </Button>
         </a>
         <Tooltip client:visible>
@@ -41,9 +35,9 @@ import Tooltip from "./Tooltip/index";
     <img
       width="300"
       height="300"
-      src="/me.webp"
+      src="/me.png"
       class="w-auto max-h-[300px] select-none absolute right-[-110px] bottom-[-20px] z-[-1] opacity-50 md:opacity-100 md:relative md:right-auto md:bottom-auto md:z-auto pointer-events-none"
-      alt="memoji of gianmarco"
+      alt="Cartoon rendition of Thomas with red horns by @reelrollsweat on tumblr."
     />
   </div>
 </Card>
