@@ -4,12 +4,12 @@ import { optimize } from 'svgo';
 import { ssr, ssrHydrationKey, escape, createComponent as createComponent$1 } from 'solid-js/web';
 import { createSignal, Show } from 'solid-js';
 
-const $$Astro$e = createAstro("https://gianmarco.xyz/");
+const $$Astro$e = createAstro("https://justaspeedrunner.github.io/");
 const $$Layout = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$e, $$props, $$slots);
   Astro2.self = $$Layout;
   const { title, description } = Astro2.props;
-  return renderTemplate`<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width"><link rel="icon" type="image/x-icon" href="/favicon.ico"><meta name="generator"${addAttribute(Astro2.generator, "content")}><title>${title}</title><meta name="description"${addAttribute(description, "content")}><meta name="robots" content="/favicon/sitemap-index.xml"><!-- Basic OG tags for sharing your website's content on platforms like Facebook and LinkedIn --><meta property="og:title"${addAttribute(title, "content")}><meta property="og:description"${addAttribute(description, "content")}><meta property="og:type" content="website"><meta property="og:url" content="https://gianmarco.xyz"><meta property="og:image" content="https://gianmarco.xyz/me.webp"><!-- Basic Twitter Card tags --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title"${addAttribute(title, "content")}><meta name="twitter:description"${addAttribute(description, "content")}><meta name="twitter:image" content="https://gianmarco.xyz/me.webp"><link rel="preconnect" href="https://cdn.fontshare.com">${renderHead()}</head><body class="bg-darkslate-700 md:h-screen flex justify-center items-center"><div class="loaderRef bg-darkslate-700 text-neutral-50 text-3xl font-black uppercase flex justify-center items-center w-screen h-screen z-50 fixed top-0 bottom-0 right-0 left-0"></div>${renderSlot($$result, $$slots["default"])}</body></html>`;
+  return renderTemplate`<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width"><link rel="icon" type="image/x-icon" href="/favicon.ico"><meta name="generator"${addAttribute(Astro2.generator, "content")}><title>${title}</title><meta name="description"${addAttribute(description, "content")}><meta name="robots" content="/favicon/sitemap-index.xml"><!-- Basic OG tags for sharing your website's content on platforms like Facebook and LinkedIn --><meta property="og:title"${addAttribute(title, "content")}><meta property="og:description"${addAttribute(description, "content")}><meta property="og:type" content="website"><meta property="og:url" content="https://justaspeedrunner.github.io/"><meta property="og:image" content="https://justaspeedrunner.github.io/me.png"><!-- Basic Twitter Card tags --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title"${addAttribute(title, "content")}><meta name="twitter:description"${addAttribute(description, "content")}><meta name="twitter:image" content="https://justaspeedrunner.github.io/me.png"><link rel="preconnect" href="https://cdn.fontshare.com">${renderHead()}</head><body class="bg-darkslate-700 md:h-screen flex justify-center items-center"><div class="loaderRef bg-darkslate-700 text-neutral-50 text-3xl font-black uppercase flex justify-center items-center w-screen h-screen z-50 fixed top-0 bottom-0 right-0 left-0"></div>${renderSlot($$result, $$slots["default"])}</body></html>`;
 }, "/home/jas/Documents/grid-astro-portfolio/src/layouts/Layout.astro", void 0);
 
 const SPRITESHEET_NAMESPACE = `astroicon`;
@@ -224,7 +224,7 @@ ${contents}`
   };
 }
 
-const $$Astro$d = createAstro("https://gianmarco.xyz/");
+const $$Astro$d = createAstro("https://justaspeedrunner.github.io/");
 const $$Icon = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$d, $$props, $$slots);
   Astro2.self = $$Icon;
@@ -271,7 +271,7 @@ async function getUsedSprites(request) {
   return [];
 }
 
-const $$Astro$c = createAstro("https://gianmarco.xyz/");
+const $$Astro$c = createAstro("https://justaspeedrunner.github.io/");
 const $$Spritesheet = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$c, $$props, $$slots);
   Astro2.self = $$Spritesheet;
@@ -288,7 +288,7 @@ ${e}`);
   return renderTemplate`${maybeRenderHead()}<svg${addAttribute(`position: absolute; width: 0; height: 0; overflow: hidden; ${style ?? ""}`.trim(), "style")}${spreadAttributes({ "aria-hidden": true, ...props })} astro-icon-spritesheet>${icons.map((icon) => renderTemplate`<symbol${spreadAttributes(icon.props)}${addAttribute(`${SPRITESHEET_NAMESPACE}:${icon.name}`, "id")}>${unescapeHTML(icon.innerHTML)}</symbol>`)}</svg>`;
 }, "/home/jas/Documents/grid-astro-portfolio/node_modules/astro-icon/lib/Spritesheet.astro", void 0);
 
-const $$Astro$b = createAstro("https://gianmarco.xyz/");
+const $$Astro$b = createAstro("https://justaspeedrunner.github.io/");
 const $$SpriteProvider = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$b, $$props, $$slots);
   Astro2.self = $$SpriteProvider;
@@ -296,7 +296,7 @@ const $$SpriteProvider = createComponent(async ($$result, $$props, $$slots) => {
   return renderTemplate`${renderComponent($$result, "Fragment", Fragment, {}, { "default": ($$result2) => renderTemplate`${unescapeHTML(content)}` })}${renderComponent($$result, "Spritesheet", $$Spritesheet, {})}`;
 }, "/home/jas/Documents/grid-astro-portfolio/node_modules/astro-icon/lib/SpriteProvider.astro", void 0);
 
-const $$Astro$a = createAstro("https://gianmarco.xyz/");
+const $$Astro$a = createAstro("https://justaspeedrunner.github.io/");
 const $$Sprite = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$a, $$props, $$slots);
   Astro2.self = $$Sprite;
@@ -312,7 +312,7 @@ const $$Sprite = createComponent(async ($$result, $$props, $$slots) => {
 
 Object.assign($$Sprite, { Provider: $$SpriteProvider });
 
-const $$Astro$9 = createAstro("https://gianmarco.xyz/");
+const $$Astro$9 = createAstro("https://justaspeedrunner.github.io/");
 const $$Content = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$9, $$props, $$slots);
   Astro2.self = $$Content;
@@ -320,7 +320,7 @@ const $$Content = createComponent(async ($$result, $$props, $$slots) => {
   return renderTemplate`${renderComponent($$result, "Fragment", Fragment, {}, { "default": ($$result2) => renderTemplate`${title && renderTemplate`${maybeRenderHead()}<h2 class="text-xl font-bold m-0">${title}</h2>`}${body && renderTemplate`<p class="m-0 font-light text-base">${body}</p>`}${renderSlot($$result2, $$slots["default"])}` })}`;
 }, "/home/jas/Documents/grid-astro-portfolio/src/components/Card/Content.astro", void 0);
 
-const $$Astro$8 = createAstro("https://gianmarco.xyz/");
+const $$Astro$8 = createAstro("https://justaspeedrunner.github.io/");
 const $$Index$1 = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$8, $$props, $$slots);
   Astro2.self = $$Index$1;
@@ -328,7 +328,7 @@ const $$Index$1 = createComponent(async ($$result, $$props, $$slots) => {
   return renderTemplate`${maybeRenderHead()}<div${addAttribute(`card group overflow-hidden opacity-0 bg-darkslate-500 shadow-lg rounded-lg p-6 border border-darkslate-100 hover:border-primary-500 align-start flex-none h-full justify-start relative transform perspective-1200 w-full transition duration-75 ease-in-out col-span-1 ${colSpan || "md:col-span-2"} ${rowSpan || ""}`, "class")}>${href ? renderTemplate`<a${addAttribute(href, "href")} class="h-full w-full ddd">${renderComponent($$result, "Icon", $$Icon, { "name": "ri:arrow-right-up-line", "class": "h-6 float-right group-hover:text-primary-500 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform ease-in-out duration-100" })}${renderComponent($$result, "Content", $$Content, { "title": title, "body": body }, { "default": ($$result2) => renderTemplate`${renderSlot($$result2, $$slots["default"])}` })}</a>` : renderTemplate`${renderComponent($$result, "Content", $$Content, { "title": title, "body": body }, { "default": ($$result2) => renderTemplate`${renderSlot($$result2, $$slots["default"])}` })}`}</div>`;
 }, "/home/jas/Documents/grid-astro-portfolio/src/components/Card/index.astro", void 0);
 
-const $$Astro$7 = createAstro("https://gianmarco.xyz/");
+const $$Astro$7 = createAstro("https://justaspeedrunner.github.io/");
 const $$Button = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$7, $$props, $$slots);
   Astro2.self = $$Button;
@@ -363,7 +363,7 @@ function Tooltip(props) {
   })));
 }
 
-const $$Astro$6 = createAstro("https://gianmarco.xyz/");
+const $$Astro$6 = createAstro("https://justaspeedrunner.github.io/");
 const $$IntroCard = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$6, $$props, $$slots);
   Astro2.self = $$IntroCard;
@@ -374,7 +374,7 @@ Hi, I'm <b class="font-bold">Thomas Puckett</b>, a software
 </p></div><div class="flex gap-4"><a${addAttribute(LINKS.github, "href")} aria-label="github profile" target="_blank">${renderComponent($$result2, "Button", $$Button, { "aria-label": "github profile" }, { "default": ($$result3) => renderTemplate`${renderComponent($$result3, "Icon", $$Icon, { "name": "ri:github-fill", "class": "h-6" })}<span class="sr-only">GitHub Profile</span>` })}</a>${renderComponent($$result2, "Tooltip", Tooltip, { "client:visible": true, "client:component-hydration": "visible", "client:component-path": "/home/jas/Documents/grid-astro-portfolio/src/components/Tooltip/index", "client:component-export": "default" }, { "default": ($$result3) => renderTemplate`${renderComponent($$result3, "Button", $$Button, { "aria-label": "easter egg btn" }, { "default": ($$result4) => renderTemplate`${renderComponent($$result4, "Icon", $$Icon, { "name": "ri:emotion-laugh-line", "class": "h-6" })}<span class="sr-only">Easter egg button</span>` })}` })}</div></div><img width="300" height="300" src="/me.png" class="w-auto max-h-[300px] select-none absolute right-[-110px] bottom-[-20px] z-[-1] opacity-50 md:opacity-100 md:relative md:right-auto md:bottom-auto md:z-auto pointer-events-none" alt="Cartoon rendition of Thomas with red horns by @reelrollsweat on tumblr."></div>` })}`;
 }, "/home/jas/Documents/grid-astro-portfolio/src/components/IntroCard.astro", void 0);
 
-const $$Astro$5 = createAstro("https://gianmarco.xyz/");
+const $$Astro$5 = createAstro("https://justaspeedrunner.github.io/");
 const $$ContactsCard = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$5, $$props, $$slots);
   Astro2.self = $$ContactsCard;
@@ -401,14 +401,14 @@ function formatTimeForChicago(date) {
   return formattedTime;
 }
 
-const $$Astro$4 = createAstro("https://gianmarco.xyz/");
+const $$Astro$4 = createAstro("https://justaspeedrunner.github.io/");
 const $$TimeZoneCard = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$4, $$props, $$slots);
   Astro2.self = $$TimeZoneCard;
   return renderTemplate`${renderComponent($$result, "Card", $$Index$1, { "colSpan": "lg:col-span-2", "rowSpan": "md:row-span-1", "title": "Time zone" }, { "default": ($$result2) => renderTemplate`${maybeRenderHead()}<time datetime="" id="timeDisplay" class="text-2xl xl:text-5xl w-50 xl:w-100 h-[calc(100%-28px)] font-serif flex justify-center items-center">${formatTimeForChicago(getCurrentTimeInChicago())}</time>` })}`;
 }, "/home/jas/Documents/grid-astro-portfolio/src/components/TimeZoneCard.astro", void 0);
 
-const $$Astro$3 = createAstro("https://gianmarco.xyz/");
+const $$Astro$3 = createAstro("https://justaspeedrunner.github.io/");
 const $$AboutMe = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$3, $$props, $$slots);
   Astro2.self = $$AboutMe;
@@ -431,21 +431,21 @@ Beyond coding, I'm passionate about learning the Japanese language
 </p></div>` })}`;
 }, "/home/jas/Documents/grid-astro-portfolio/src/components/AboutMe.astro", void 0);
 
-const $$Astro$2 = createAstro("https://gianmarco.xyz/");
+const $$Astro$2 = createAstro("https://justaspeedrunner.github.io/");
 const $$Pulse = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$2, $$props, $$slots);
   Astro2.self = $$Pulse;
   return renderTemplate`${maybeRenderHead()}<span class="relative flex h-3 w-3"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span><span class="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span></span>`;
 }, "/home/jas/Documents/grid-astro-portfolio/src/components/Pulse.astro", void 0);
 
-const $$Astro$1 = createAstro("https://gianmarco.xyz/");
+const $$Astro$1 = createAstro("https://justaspeedrunner.github.io/");
 const $$Now = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$1, $$props, $$slots);
   Astro2.self = $$Now;
   return renderTemplate`${renderComponent($$result, "Card", $$Index$1, { "colSpan": "md:col-span-1", "rowSpan": "md:row-span-1" }, { "default": ($$result2) => renderTemplate`${maybeRenderHead()}<div class="flex justify-between w-full items-start mb-2"><div class="flex flex-col"><h2>Now</h2></div>${renderComponent($$result2, "Pulse", $$Pulse, {})}</div><p class="text-xs">Currently working through my senior year of high school.</p>` })}`;
 }, "/home/jas/Documents/grid-astro-portfolio/src/components/Now.astro", void 0);
 
-const $$Astro = createAstro("https://gianmarco.xyz/");
+const $$Astro = createAstro("https://justaspeedrunner.github.io/");
 const $$Index = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro, $$props, $$slots);
   Astro2.self = $$Index;
