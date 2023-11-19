@@ -8,17 +8,4 @@ import solidJs from "@astrojs/solid-js";
 // https://astro.build/config
 export default defineConfig({
   site: "https://justaspeedrunner.github.io",
-  integrations: [
-    sitemap(),
-    robotsTxt({
-      sitemap: [
-        "https://justaspeedrunner.github.io/sitemap-index.xml",
-        "https://justaspeedrunner.github.io/sitemap-0.xml",
-      ],
-    }),
-    solidJs(),
-    UnoCSS({ injectReset: true }),
-  ],
-  output: "server",
-  adapter: netlify(),
 });
