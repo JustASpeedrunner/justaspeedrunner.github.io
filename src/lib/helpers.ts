@@ -6,7 +6,7 @@ export function getCurrentTimeInChicago(): Date {
   const now = new Date();
 
   const offsetChicago = -6; 
-  now.setHours(now.getUTCHours() + offsetChicago);
+  now.setHours(now.getUTCHours() -6);
 
   return now;
 }
